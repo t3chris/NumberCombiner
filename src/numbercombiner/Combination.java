@@ -3,10 +3,6 @@ package numbercombiner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- *
- * @author Christian
- */
 public class Combination extends ArrayList<Integer> implements Comparable<Combination> {
 
     public Combination(Integer... numbers) {
