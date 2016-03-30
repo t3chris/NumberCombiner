@@ -13,6 +13,10 @@ public class NumberCombiner {
 //    private final Combination scores = new Combination(10, 20, 30, 33, 40, 50, 60, 70, 80, 90, 100);
 
     private void run() {
+
+        System.out.println("Existing Scores for Sub Account: " + scores);
+        System.out.println("=========\n\n");
+
         System.out.println("Build all combinations of the scores which lead to at least 100 signature points:\n");
         Set<Combination> combinations = new HashSet<>();
         for (Integer base : scores) {
